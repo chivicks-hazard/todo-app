@@ -1,0 +1,19 @@
+{
+	"name": "fullstack-todo-app",
+	"version": "1.0.0",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"dev:backend": "cd backend && nodemon server.js",
+		"dev:frontend": "cd frontend && npx vite",
+		"dev": "npm run dev:frontend && npm run dev:backend",
+		"preview": "cd frontend && npx vite build && npx vite preview && cd ../backend && nodemon server.js"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"description": "",
+	"dependencies": {
+		"fullstack-todo-app": "file:"
+	}
+}
