@@ -5,7 +5,7 @@ I decided to put dabble in fullstack in the barest minimum possible, and that's 
 
 The structure is simple: create two folders in the project, frontend and backend, where each of them will store the necessary components to handle each side of the application according to the directory name respectively.
 
-The only issue I'm facing now is how to handle preflights, especially when making a POST request to add a todo. I'll come to this later and refine the markdown.
+Here, I simply created a todo list that can fetch and add new todo entries. I learnt how to handle preflight operations and OPTIONS requests.
 
 ### Technologies Used
 
